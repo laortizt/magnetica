@@ -10,8 +10,8 @@ function Footer() {
           <a href="#servicios">Servicios</a>
           <a href="#agendar">Citas</a>
           <a href="#tienda">Tienda</a>
-          <a href="#">Instagram</a>
-          <a href="#">WhatsApp</a>
+          <a href="#instagram">Instagram</a>
+          <a href="#whatsapp">WhatsApp</a>
         </div>
 
         <p className="footer-copy">
