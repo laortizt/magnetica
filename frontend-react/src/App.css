@@ -596,12 +596,36 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
-    nav { padding: 1rem 1.5rem; }
+    nav { 
+      padding: 1rem 1.5rem;
+      flex-direction: column;
+       align-items: center;
+      gap: 1rem; }
     .nav-logo img {height: 130px; width: 130px; }
 
-    .services-grid, .posts-grid, .shop-grid { padding: 0 1.5rem; }
+     .services-grid {
+      display: grid !important;
+    }
+
+    .posts-grid { grid-template-columns: 1fr;}
+    .shop-grid { padding: 0 1.5rem; grid-template-columns: 1fr;  }
     .domicilio-banner, #agendar, #tienda, #posts, #pago, footer { padding-left: 1.5rem; padding-right: 1.5rem; }
     .form-grid { grid-template-columns: 1fr; }
     .posts-grid { grid-template-columns: 1fr; }
     footer { flex-direction: column; text-align: center; }
   }
+
+  @media (max-width: 600px) {
+  .services-grid {
+     display: table-row-group !important;
+     margin: 1rem 2rem !important;
+  }
+  .reveal {
+    margin: 2rem;
+  }
+
+  #Schedule {
+    padding: 0;
+  } 
+
+}
