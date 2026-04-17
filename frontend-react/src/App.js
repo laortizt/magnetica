@@ -1,6 +1,4 @@
-import logo from "./img/logoMagnetica.png";
 import './App.css';
-import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ZodiacStrip from "./components/ZodiacStrip";
